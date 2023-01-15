@@ -4,7 +4,7 @@ export default StyleSheet.create({
 
   border: {
     backgroundColor: '#e6f7ff',
-    position:'relative',
+    position: 'relative',
     bottom: 150,
     borderWidth: 3,
     borderColor: '#3399ff',
