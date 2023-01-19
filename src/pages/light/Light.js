@@ -2,7 +2,7 @@ import Button from "../../components/button/lightButton/LightButton";
 
 
 
-export default function lightPage() {
+export default function LightPage() {
 
 
     return (

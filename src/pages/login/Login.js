@@ -3,7 +3,7 @@ import { View, Text, ImageBackground, SafeAreaView, TouchableOpacity } from 'rea
 import HomeReturnButton from '../../components/button/homeReturnButton/HomeReturnButton';
 
 
-export default function login(props) {
+export default function Login(props) {
 
     const Background = { uri: 'https://wallpapershome.com/images/pages/pic_h/22423.jpg' }
 

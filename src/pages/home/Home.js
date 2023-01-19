@@ -8,7 +8,7 @@ import HomeSettingButton from '../../components/button/homeSettingButton/HomeSet
 
 
 
-export default function homePage(props) {
+export default function HomePage(props) {
 
     const Background = { uri: 'https://d2psm37mwidfxy.cloudfront.net/allimages/appbackground32.jpg' }
     return (
