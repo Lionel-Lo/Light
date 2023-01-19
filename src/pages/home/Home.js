@@ -1,9 +1,8 @@
+// Import module
 
 import styles from './style';
-import { View, TouchableOpacity, ImageBackground, SafeAreaView } from 'react-native';
-import HomeLightButton from '../../components/button/homeLightButton/HomeLightButton';
-import HomeLoginButton from '../../components/button/homeLoginButton/HomeLoginButton';
-import HomeSettingButton from '../../components/button/homeSettingButton/HomeSettingButton';
+import { View, ImageBackground, SafeAreaView, Text, Image } from 'react-native';
+
 
 
 
@@ -14,16 +13,9 @@ export default function HomePage(props) {
     return (
         <SafeAreaView style={styles.container}>
             <ImageBackground source={Background} style={styles.HomeBackground}>
-                <View style={styles.container}>
-                    <TouchableOpacity onPress={() => props.navigation.navigate('Login')}>
-                        <HomeLoginButton />
-                    </TouchableOpacity>
-                    <TouchableOpacity onPress={() => props.navigation.navigate('Light')}>
-                        <HomeLightButton />
-                    </TouchableOpacity>
-                    <TouchableOpacity onPress={() => props.navigation.navigate('Setting')}>
-                        <HomeSettingButton />
-                    </TouchableOpacity>
+                <View style={styles.containerText}>
+                    <Text style={styles.text}>Welcome to Light App</Text>
+                    <Image source={require('../../../assets/picture/logo.png')} style={styles.logo} />
                 </View>
             </ImageBackground>
         </SafeAreaView>

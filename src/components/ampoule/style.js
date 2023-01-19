@@ -5,7 +5,7 @@ export default StyleSheet.create({
       width: 230,
       height: 360,
       position: 'absolute',
-      top: 100,
+      top: 10,
       transform: [{rotate: '180deg'}],
     }
   }); 

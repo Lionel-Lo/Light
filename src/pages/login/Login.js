@@ -1,9 +1,13 @@
+// import style
+
 import styles from './style';
-import { View, Text, ImageBackground, SafeAreaView, TouchableOpacity } from 'react-native';
-import HomeReturnButton from '../../components/button/homeReturnButton/HomeReturnButton';
+
+// Import module
+
+import { View, Text, ImageBackground, SafeAreaView } from 'react-native';
 
 
-export default function Login(props) {
+export default function Login() {
 
     const Background = { uri: 'https://wallpapershome.com/images/pages/pic_h/22423.jpg' }
 
@@ -15,9 +19,6 @@ export default function Login(props) {
                         Login
                     </Text>
                 </View>
-                <TouchableOpacity onPress={() => props.navigation.navigate('Home')}>
-                    <HomeReturnButton />
-                </TouchableOpacity>
             </ImageBackground>
         </SafeAreaView>
     )

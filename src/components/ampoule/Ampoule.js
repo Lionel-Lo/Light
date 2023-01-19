@@ -1,5 +1,9 @@
+// import style
 
 import styles from './style';
+
+// import module
+
 import { Image,} from 'react-native';
 
 export default function ampoule() {
