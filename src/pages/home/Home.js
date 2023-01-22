@@ -14,7 +14,7 @@ export default function HomePage(props) {
         <SafeAreaView style={styles.container}>
             <ImageBackground source={Background} style={styles.HomeBackground}>
                 <View style={styles.containerText}>
-                    <Text style={styles.text}>Welcome to Light App</Text>
+                    <Text style={styles.text}>Welcome To Light App</Text>
                     <Image source={require('../../../assets/picture/logo.png')} style={styles.logo} />
                 </View>
             </ImageBackground>

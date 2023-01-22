@@ -1,5 +1,5 @@
 import styles from './style';
-import { View, Text, ImageBackground, SafeAreaView, TouchableOpacity } from 'react-native';
+import { View, Text, ImageBackground, SafeAreaView } from 'react-native';
 
 
 

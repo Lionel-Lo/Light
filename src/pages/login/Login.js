@@ -1,6 +1,7 @@
 // import style
 
 import styles from './style';
+import Form from '../../components/formulaire/Form';
 
 // Import module
 
@@ -18,6 +19,8 @@ export default function Login() {
                     <Text style={styles.text}>
                         Login
                     </Text>
+                    <View><Form /></View>
+                    
                 </View>
             </ImageBackground>
         </SafeAreaView>
